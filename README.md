@@ -58,5 +58,6 @@ ipAddr.subnet('192.168.1.134',26).contains('192.168.1.190');
 ipAddr.checkRange('192.168.1.134',26,'192.168.1.190');
 //=>{ isValidIP: true, isValidMask: true, isInRange: true }
 
+//Welcome to revise together！
 
 ```
