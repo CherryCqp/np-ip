@@ -42,7 +42,6 @@ ipAddr.isCidr('192.168.1.134',32);
 ipAddr.subnet('192.168.1.134',26);
 //=>{ isValidIP: true,
 //   isValidMask: true,
-//   contains: [Function],
 //   subnet:
 //    { internetAddr: '192.168.1.128',
 //      broadcastAddr: '192.168.1.191',
@@ -50,8 +49,8 @@ ipAddr.subnet('192.168.1.134',26);
 //      lastAddr: '192.168.1.190',
 //      subnetMask: '255.255.255.192',
 //      hostNum: 62,
-//      length: 64
-//     }
+//      length: 64,
+//      contains: [Function] } }
 
 ipAddr.subnet('192.168.1.134',26).contains('192.168.1.190');
 //=> true
