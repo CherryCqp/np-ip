@@ -1,6 +1,6 @@
 {
   "name": "np-ip",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "An project about ip's function",
   "main": "index.js",
   "scripts": {
